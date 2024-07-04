@@ -1,0 +1,37 @@
+div .main-container {
+    background-color: darkslategrey;
+    width: 40vw;
+    height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin-top: 20px;
+}
+
+input .text {
+    width: 50vw;
+}
+
+button {
+    width: 100px;
+    height: 60px;
+    background-color: darkslategray;
+    border: 0;
+    font-size: xx-large;
+    font-family: comic sans-serif;
+    text-align: left;
+    font-weight: 900;
+    color: springgreen;
+    float: right;
+}
+
+label {
+    font-weight: 700;
+    font-size: larger;
+}
