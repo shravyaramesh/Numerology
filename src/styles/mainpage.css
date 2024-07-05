@@ -1,0 +1,27 @@
+.detail-item-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    width: 100%;
+    padding: 10px; /* Add padding for spacing */
+}
+
+.detail-item-container label {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-shadow: 3px 3px 10px whitesmoke, -3px -3px 5px whitesmoke;
+    margin-right: 10px; /* Adjust margin for spacing between label and input */
+}
+
+.detail-item-container input {
+    background-color: rgba(161, 161, 161, 0.95);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    flex: 1; /* Take remaining space in flex container */
+    align-self: flex-start;
+    margin: auto auto;
+    padding: 2px 10px;
+}
