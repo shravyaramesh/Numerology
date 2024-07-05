@@ -1,14 +1,9 @@
 // @ts-nocheck
 import "./App.css";
-import { DestinyCard, LifePathCard } from "./components/index.js";
+import { MainPage } from "./components/index.js";
 
 function App() {
-  return (
-    <div className="app-container">
-      <LifePathCard />
-      <DestinyCard />
-    </div>
-  );
+  return <MainPage />;
 }
 
 export default App;
