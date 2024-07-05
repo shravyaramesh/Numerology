@@ -1,3 +1,95 @@
+
+.background-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+}
+
+.main-page-content-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.autoscolling-content-container.left, .autoscolling-content-container.right {
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.autoscolling-content-container.left {}
+
+.autoscolling-content-container.right {}
+
+.center-content-container {
+    width: 60%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.center-content-container h1 {
+    /* color: rgba(0, 0, 0, 0.9); */
+    color:  rgba(73, 72, 72, 0.7);
+    font-family: fantasy;
+    font-size: 8em;
+    text-shadow: 1px 1px 1px rgb(23, 5, 124), 1px 1px 1px rgb(0, 84, 105), 1px 1px 1px rgb(90, 11, 143), 10px 5px 5px whitesmoke, -5px -5px 5px whitesmoke;
+    padding: 0px;
+    margin: 0px;
+}
+
+.center-content-container p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* color: whitesmoke; */
+    font-size: 1.5em;
+    background-color: rgba(161, 161, 161, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1%;
+    padding: 2.5% 5%;
+    width: fit-content;
+    height: fit-content;
+    line-height: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 10px whitesmoke, 2px 2px 10px whitesmoke;
+    font-weight:bolder;
+}
+
+button {
+    color:  whitesmoke;
+    font-weight: bold;
+    background-color:transparent;
+    border: none;
+    font-family: fantasy;
+    font-size: 3em;
+    padding: 1% 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:underline;
+    /* text-shadow: 1px 1px 1px rgb(23, 5, 124), 1px 1px 1px rgb(0, 84, 105), 1px 1px 1px rgb(90, 11, 143), 5px 2px 5px whitesmoke, -2px -2px 5px whitesmoke; */
+}
+
+button:hover {
+    text-shadow: 2px 2px 10px black, 2px 2px 10px black;
+}
+
+.enter-details-container {
+    width: 60%;
+}
+
 .detail-item-container {
     display: flex;
     align-items: center; /* Center items vertically */
